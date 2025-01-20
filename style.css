@@ -1,0 +1,108 @@
+:root {
+    --dark-color: #424242;
+    --green-700: #388e3c;
+    --blue-600: #1e88e5;
+
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.1em;
+    color: var(--dark-color);
+}
+
+/* Global styles */
+.main-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 5rem 0;
+    overflow-y: auto;
+}
+
+ul li {
+    margin: 0;
+    padding: 4px 6px 4px 0;
+}
+/* End global striles */
+
+/* Helpers */
+.text-green {
+    color: var(--green-700);
+}
+
+.text-blue {
+    color: var(--blue-600);
+}
+
+.d-block {
+    display: block;
+}
+
+.ps-none {
+    padding-left: 0;
+}
+
+.m-none {
+    margin: 0;
+}
+
+.ms-none {
+    margin-top: 0 !important;
+}
+
+.single-list li {
+    list-style: none;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+}
+
+.use-vineta li {
+    list-style: disc !important;
+}
+/* End helpers */
+
+/* Page main code */
+.main-container .divider {
+    height: 3px;
+    max-width: 80%;
+    border: none;
+    border-radius: 3px;
+    background-color: var(--dark-color);
+}
+
+.main-container .author-name {
+    font-weight: 500;
+}
+
+.main-container .cv-section .section-title {
+    margin: 6px 0;
+    font-weight: 600;
+}
+
+/* Responsive */
+@media (min-width: 576px) {
+    .main-container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .main-container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .main-container {
+        max-width: 1114px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .main-container {
+        max-width: 1320px;
+    }
+}
+/* End responsive */
