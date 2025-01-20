@@ -6,3 +6,7 @@ Project for roadmap.sh.
 ## Usage
 
 Only open `index.html` in your browser.
+
+## Solution
+
+[https://roadmap.sh/projects/single-page-cv/solutions?u=678e566098c00f71177f3b11](https://roadmap.sh/projects/single-page-cv/solutions?u=678e566098c00f71177f3b11)
