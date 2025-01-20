@@ -1,7 +1,7 @@
 # single-page-cv
 
 Project for roadmap.sh.
-[The project](https://github.com/maochoa31415/single-page-cv)
+[The project](https://roadmap.sh/projects/single-page-cv)
 
 ## Usage
 
